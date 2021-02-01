@@ -1,0 +1,20 @@
+.form-grid{
+ display: grid;
+ grid-template-columns: auto auto;
+ gap: 20px;
+ width: 40%;
+ padding: 20px;
+}
+
+.form-grid input, .form-grid label, .form-grid legend, .form-grid a{
+ font-size: 1.2em;
+}
+
+.form-grid label{
+ text-align: right;
+}
+
+.form-grid .button{
+ height: 2em;
+ width: 60%;
+}
